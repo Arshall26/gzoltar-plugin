@@ -12,7 +12,7 @@ https://github.com/GZoltar/gzoltar/tree/master/com.gzoltar.vscode
 
 Please follow the steps of the video below :
 
-[]
+[](https://www.youtube.com/watch?v=km0QMdGfblg&ab_channel=Gzoltarfeup)
 
 ```
 git clone https://github.com/Arshall26/gzoltar-plugin.git
@@ -24,7 +24,7 @@ After it has finished, a new window will appear showcasing the results of the fa
 
 The video below details the steps to follow :
 
-[]
+[](https://www.youtube.com/watch?v=txn2gmpojMY&ab_channel=Gzoltarfeup)
 
 ## Result 
 
@@ -62,4 +62,4 @@ With the help of the vscode plugin, It becomes very easy to run gzoltar with the
 
 In the video below, gzoltar runs by the command line :
 
-[]
+[](https://www.youtube.com/watch?v=t-T8IfoTMEw&ab_channel=Gzoltarfeup)
