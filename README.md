@@ -11,7 +11,7 @@ https://github.com/GZoltar/gzoltar/tree/master/com.gzoltar.vscode
 ## Installation
 
 ```
-git clone ...
+git clone https://github.com/Arshall26/gzoltar-plugin.git
 ```
 
 ## Usage
@@ -47,7 +47,7 @@ directory:
 
 ## Command line
 
-You can also run gzoltar using the command line by running :
+With the help of the vscode plugin, It becomes very easy to run gzoltar with the command line since the extension registers for us the commands to launch :
 
 1. `mvn package`
 2. Copy/Paste the command in the `commands/listTestMethodsCommand.txt` file.

@@ -126,6 +126,8 @@ export class GZoltarCommander implements vscode.TreeDataProvider<GZoltarCommand>
         // Setup
         vscode.window.showInformationMessage("Setting up all project's artifacts.");
         const folder = this.container.getFolder(key);
+        console.log("FOLDER ICI --->")
+        console.log(folder)
         
 
         this.statusBar.text = 'GZoltar: Setting up';
@@ -139,6 +141,7 @@ export class GZoltarCommander implements vscode.TreeDataProvider<GZoltarCommand>
         }
         await folder.cleanup();
         await folder.copyToBuild();
+    
 
         const configPath = folder.configPath;
         const includes = await folder.getIncludes();

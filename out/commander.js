@@ -120,6 +120,8 @@ class GZoltarCommander {
             // Setup
             vscode.window.showInformationMessage("Setting up all project's artifacts.");
             const folder = this.container.getFolder(key);
+            console.log("FOLDER ICI --->");
+            console.log(folder);
             this.statusBar.text = 'GZoltar: Setting up';
             this.statusBar.show();
             let commandRet = yield folder.runTests();
