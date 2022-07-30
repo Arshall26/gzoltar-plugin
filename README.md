@@ -8,7 +8,11 @@ Before using GZoltar's Visual Studio Code extension, please check the requiremen
 
 https://github.com/GZoltar/gzoltar/tree/master/com.gzoltar.vscode
 
-## Installation
+## Installation and setup
+
+Please follow the steps of the video below :
+
+[]
 
 ```
 git clone https://github.com/Arshall26/gzoltar-plugin.git
@@ -16,9 +20,11 @@ git clone https://github.com/Arshall26/gzoltar-plugin.git
 
 ## Usage
 
-[AJOUTER LA VIDEO]
-
 After it has finished, a new window will appear showcasing the results of the fault detection analysis. The colors in the charts indicate the code's suspicion levels.
+
+The video below details the steps to follow :
+
+[]
 
 ## Result 
 
@@ -53,3 +59,7 @@ With the help of the vscode plugin, It becomes very easy to run gzoltar with the
 2. Copy/Paste the command in the `commands/listTestMethodsCommand.txt` file.
 3. Copy/Paste the command in the `commands/runtTestMethodsCdmmand.txt` file.
 4. Copy/Paste the command in the `commands/faultLocalizationCommand.txt` file.
+
+In the video below, gzoltar runs by the command line :
+
+[]
